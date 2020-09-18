@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>hello!!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style media="screen">
+      body{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+        height:100vh;
+        background:grey;
+      }
+      h1{
+        color:white;
+      }
+
+
+    </style>
+    <script type="text/javascript">
+      counter=0;
+function hello(){
+    counter++;
+      document.querySelector('h1').innerHTML=counter;
+      if(counter % 10 ===0)
+      {alert(`count is now ${counter}`);}
+    }
+    </script>
+  </head>
+  <body>
+    <div>
+      <h1>hello!!</h1>
+    </div>
+  <div>
+      <button onclick="hello()" type="button" class="btn btn-primary">click here</button>
+  </div>
+  </body>
+</html>
