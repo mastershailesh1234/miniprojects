@@ -1,1 +1,1 @@
-# miniprojects
+# minitasks
